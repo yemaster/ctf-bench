@@ -1,0 +1,56 @@
+{
+  "_comment": "显式列出的题目使用下面的元数据；auto_discover=true 时，新增的合法题目目录会被自动发现并按 challenge.md 推断元数据。字段说明见 README。",
+  "auto_discover": true,
+  "challenges": [
+    {
+      "code": "web-01",
+      "dir": "web",
+      "title": "打折商店的负数订单",
+      "category": "Web",
+      "difficulty": 3,
+      "level": 3,
+      "total_score": 100,
+      "kind": "service"
+    },
+    {
+      "code": "crypto-01",
+      "dir": "crypto",
+      "title": "一次迁移，两次复用",
+      "category": "Crypto",
+      "difficulty": 3,
+      "level": 3,
+      "total_score": 120,
+      "kind": "artifact"
+    },
+    {
+      "code": "reverse-01",
+      "dir": "reverse",
+      "title": "去符号的链式许可证",
+      "category": "Reverse",
+      "difficulty": 5,
+      "level": 5,
+      "total_score": 160,
+      "kind": "artifact"
+    },
+    {
+      "code": "pwn-01",
+      "dir": "pwn",
+      "title": "双门本地覆盖：cookie 与 admin",
+      "category": "Pwn",
+      "difficulty": 4,
+      "level": 4,
+      "total_score": 140,
+      "kind": "artifact"
+    },
+    {
+      "code": "forensics-01",
+      "dir": "forensics",
+      "title": "DNS 隧道里的碎片",
+      "category": "Forensics",
+      "difficulty": 4,
+      "level": 4,
+      "total_score": 120,
+      "kind": "artifact"
+    }
+  ]
+}

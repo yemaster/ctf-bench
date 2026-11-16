@@ -1,0 +1,17 @@
+==========================================================================
+CTF Training Package -- one-click verification
+workspace: /home/chao/dsh-workspace/ctf-training
+python:    3.13.5
+==========================================================================
+
+CHALLENGE    RESULT    TIME  DETAIL
+--------------------------------------------------------------------------
+web          PASS      0.2s  solver recovered the expected flag
+crypto       PASS      0.0s  solver recovered the expected flag
+reverse      PASS      0.0s  solver recovered the expected flag
+pwn          PASS      0.0s  solver recovered the expected flag
+forensics    PASS      0.0s  solver recovered the expected flag
+
+==========================================================================
+summary: 5/5 passed, 0 failed
+==========================================================================

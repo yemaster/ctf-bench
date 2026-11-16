@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Training Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 3rem auto; padding: 0 1rem; }
+    button { margin: .2rem; padding: .4rem .8rem; }
+    pre { background: #f4f4f4; padding: 1rem; overflow: auto; }
+    .muted { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Training Shop</h1>
+  <p class="muted">Internal demo storefront. Guest balance: $50.00. VIP catalog requires a staff promo.</p>
+  <button id="login">Login as guest</button>
+  <button id="redeem">Redeem promo</button>
+  <button id="products">Refresh catalog</button>
+  <h2>Catalog</h2>
+  <ul id="catalog"></ul>
+  <h2>Last API response</h2>
+  <pre id="out">Not logged in.</pre>
+  <script src="/static/app.js"></script>
+</body>
+</html>
